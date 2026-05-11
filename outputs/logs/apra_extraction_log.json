@@ -1,0 +1,93 @@
+[
+  {
+    "file": "2025%20CPPP%20-%20Choice.xlsx",
+    "year": 2025,
+    "product_type": "TDP",
+    "is_current_year": true,
+    "records": 882,
+    "sheets": [
+      "Non-Platform TDPs (579 records)",
+      "Platform TDPs (303 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2025%20CPPP%20-%20MySuper.xlsx",
+    "year": 2025,
+    "product_type": "MySuper",
+    "is_current_year": true,
+    "records": 384,
+    "sheets": [
+      "MySuper Products (384 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2024_CPPP_Combined.xlsx",
+    "year": 2024,
+    "product_type": "MySuper",
+    "is_current_year": false,
+    "records": 57,
+    "sheets": [
+      "MySuper results (57 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2024_CPPP_Combined.xlsx",
+    "year": 2024,
+    "product_type": "TDP",
+    "is_current_year": false,
+    "records": 590,
+    "sheets": [
+      "Non-Platform TDP results (398 records)",
+      "Platform TDP results (192 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2023_CPPP_Combined.xlsx",
+    "year": 2023,
+    "product_type": "MySuper",
+    "is_current_year": false,
+    "records": 64,
+    "sheets": [
+      "MySuper results (64 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2023_CPPP_Combined.xlsx",
+    "year": 2023,
+    "product_type": "TDP",
+    "is_current_year": false,
+    "records": 805,
+    "sheets": [
+      "Non-Platform TDP results (500 records)",
+      "Platform TDP results (305 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2022_CPPP_MySuper.xlsx",
+    "year": 2022,
+    "product_type": "MySuper",
+    "is_current_year": false,
+    "records": 69,
+    "sheets": [
+      "Performance test results (69 records)"
+    ],
+    "status": "extracted"
+  },
+  {
+    "file": "2021_CPPP_MySuper.xlsx",
+    "year": 2021,
+    "product_type": "MySuper",
+    "is_current_year": false,
+    "records": 80,
+    "sheets": [
+      "Performance test results (80 records)"
+    ],
+    "status": "extracted"
+  }
+]

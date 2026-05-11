@@ -1,0 +1,66 @@
+[
+  {
+    "product_type": "TDP",
+    "year": 2025,
+    "file_name": "2025%20CPPP%20-%20Choice.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2025%20CPPP%20-%20Choice.xlsx",
+    "is_current_year": true,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "MySuper",
+    "year": 2025,
+    "file_name": "2025%20CPPP%20-%20MySuper.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2025%20CPPP%20-%20MySuper.xlsx",
+    "is_current_year": true,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "MySuper",
+    "year": 2024,
+    "file_name": "2024_CPPP_Combined.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2024_CPPP_Combined.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "TDP",
+    "year": 2024,
+    "file_name": "2024_CPPP_Combined.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2024_CPPP_Combined.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "MySuper",
+    "year": 2023,
+    "file_name": "2023_CPPP_Combined.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2023_CPPP_Combined.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "TDP",
+    "year": 2023,
+    "file_name": "2023_CPPP_Combined.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2023_CPPP_Combined.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "MySuper",
+    "year": 2022,
+    "file_name": "2022_CPPP_MySuper.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2022_CPPP_MySuper.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  },
+  {
+    "product_type": "MySuper",
+    "year": 2021,
+    "file_name": "2021_CPPP_MySuper.xlsx",
+    "file_path": "C:\\Users\\alpes\\.claude\\Member Performance Data\\outputs\\apra-skills\\apra_data\\2021_CPPP_MySuper.xlsx",
+    "is_current_year": false,
+    "status": "downloaded"
+  }
+]

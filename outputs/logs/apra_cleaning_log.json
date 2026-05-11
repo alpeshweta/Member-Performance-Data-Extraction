@@ -1,0 +1,27 @@
+{
+  "total_input_records": 2931,
+  "total_cleaned_records": 2931,
+  "records_dropped": 0,
+  "rag_all_unknown_fallback_applied": true,
+  "null_field_counts": {
+    "nir_10yr": 637,
+    "fees_50k": 76,
+    "fees_100k": 72
+  },
+  "rag_distribution": {
+    "nir_rag": {
+      "Green": 636,
+      "Red": 630
+    },
+    "fees_50k_rag": {
+      "Green": 636,
+      "Red": 630
+    },
+    "fees_100k_rag": {
+      "Green": 636,
+      "Red": 630
+    }
+  },
+  "fuzzy_pairs_found": 745,
+  "fuzzy_pairs_review_needed": 511
+}
