@@ -1,11 +1,11 @@
 {
-  "timestamp": "2026-04-05T09:50:09.991686+00:00",
-  "output_file": "C:\\Users\\alpes\\GitHub\\apra-intelligence-platform\\pipeline-data\\performance-data.json",
-  "backup_file": "C:\\Users\\alpes\\GitHub\\apra-intelligence-platform\\pipeline-data\\performance-data-2025-backup.json",
+  "timestamp": "2026-06-10T06:24:32.774823+00:00",
+  "output_file": "apra_work/performance-data.json",
+  "backup_file": null,
   "last_updated": "2025-06",
   "current_year": 2025,
   "total_mysuper_products": 127,
-  "total_tdp_options": 1706,
+  "total_tdp_options": 1261,
   "source_years_mysuper": [
     "2025",
     "2024",
@@ -18,5 +18,5 @@
     "2024",
     "2023"
   ],
-  "file_size_bytes": 934662
+  "file_size_bytes": 723394
 }

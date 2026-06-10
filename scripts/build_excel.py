@@ -8,8 +8,8 @@ from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
 from openpyxl.utils import get_column_letter
 
-SRC = Path(r"C:\Users\alpes\GitHub\apra-intelligence-platform\pipeline-data\performance-data.json")
-OUT = Path(r"C:\Users\alpes\GitHub\apra-intelligence-platform\pipeline-data\performance-data.xlsx")
+SRC = Path(__file__).parent / "apra_work" / "performance-data.json"
+OUT = Path(__file__).parent / "apra_work" / "performance-data.xlsx"
 
 FONT_NAME = "Arial"
 

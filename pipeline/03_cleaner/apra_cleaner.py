@@ -109,6 +109,9 @@ def mysuper_join_key(rec: dict) -> str:
 
 
 def tdp_join_key(rec: dict) -> str:
+    # Always use the composite name key as the join key.
+    # This preserves 2025's full product/menu/option granularity.
+    # Cross-year linking via option_identifier is handled in the longitudinal builder.
     parts = [
         title_case(rec.get("product_name", "")),
         title_case(rec.get("investment_menu_name", "")),
@@ -213,6 +216,8 @@ def main():
         if source_type != "MySuper":
             out["investment_menu_name"] = title_case(rec.get("investment_menu_name", ""))
             out["investment_option_name"] = title_case(rec.get("investment_option_name", ""))
+            if rec.get("option_identifier"):
+                out["option_identifier"] = rec["option_identifier"]
 
         if is_current:
             # Numeric fields

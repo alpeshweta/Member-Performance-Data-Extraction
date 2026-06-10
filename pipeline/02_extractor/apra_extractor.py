@@ -268,7 +268,7 @@ def extract_tdp(ws, sheet_name: str, is_current_year: bool, colour_legend: dict,
     if missing:
         print(f"  [warn] {sheet_name} — missing columns: {missing}")
 
-    product_type = "Platform TDP" if "Platform" in sheet_name else "Non-Platform TDP"
+    product_type = "Non-Platform TDP" if "Non-Platform" in sheet_name else "Platform TDP"
 
     # Historical TDP files (2023–2024) lack a Product Name column.
     # Fall back to Investment Option Name as the primary row identifier.
@@ -316,6 +316,14 @@ def extract_tdp(ws, sheet_name: str, is_current_year: bool, colour_legend: dict,
         elif using_option_as_product:
             # product_name IS the option name — copy it over
             rec["investment_option_name"] = product_name.strip()
+
+        # Option identifier — stable cross-year join key (present in all TDP years)
+        opt_id_col = col_index.get("Investment option identifier^^")
+        if opt_id_col is not None and opt_id_col < len(cells):
+            raw_id = cells[opt_id_col].value
+            if raw_id is not None:
+                # Strip trailing asterisk APRA uses to mark combined-history products
+                rec["option_identifier"] = str(raw_id).strip().rstrip("*").rstrip(" ")
 
         pf_col = col_index.get("Pass/Fail Indicator")
         if pf_col is not None and pf_col < len(cells):
